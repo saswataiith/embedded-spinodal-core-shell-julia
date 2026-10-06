@@ -1,5 +1,5 @@
-# Fixed-particle embedded Cahn–Hilliard model, recovered July 2022 source.
-# All quantities are dimensionless. The original CUDA sources are unchanged.
+# I use the fixed-particle Cahn–Hilliard model from the recovered July 2022 source.
+# I use dimensionless quantities and retain the original CUDA sources unchanged.
 using FFTW, Random, Statistics, DelimitedFiles
 Base.@kwdef struct Parameters
     A::Float64 = 2.0
@@ -25,7 +25,7 @@ function make_grid(n, spacing)
 end
 
 function initial_fields(n; spacing=1.0, radius=70.0, width=4.0, seed=5749)
-    # Radius and width are physical nondimensional lengths, not grid indices.
+    # I specify the radius and interface width as dimensionless lengths.
     phi = [0.5 * (1 - tanh((hypot((i-1-n÷2)*spacing,
             (j-1-n÷2)*spacing)-radius)/width)) for i in 1:n, j in 1:n]
     inside = phi .>= 0.5
@@ -76,7 +76,7 @@ function step(c, shape, grid, p, dt)
 end
 
 function energy(c, shape, grid, p)
-    # Parseval form includes the even-grid Nyquist contribution to |grad c|².
+    # I use Parseval’s identity to include the Nyquist contribution to the gradient energy.
     gradient_energy = p.kappa * sum(grid.k2 .* abs2.(fft(c))) / length(c)
     return (sum(bulk_energy(c, shape, p)) + gradient_energy) * grid.spacing^2
 end
