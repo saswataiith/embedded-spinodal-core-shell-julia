@@ -1,0 +1,112 @@
+[
+  {
+    "path": "original/2022-2d/InputParams",
+    "sha256": "c5d97da7a2000b86bc5f7fb204aac6e566a9f938a16ebd46989741847cb1804c",
+    "bytes": 542
+  },
+  {
+    "path": "original/2022-2d/Makefile",
+    "sha256": "99a8d48380b2c521b2123ea9238f9f85e68079396533467bf406851609bd16a4",
+    "bytes": 490
+  },
+  {
+    "path": "original/2022-2d/bin1ary",
+    "sha256": "1c62cd960eed15879e5e30a27c2adf928674b4583fef502246151f000e8165c0",
+    "bytes": 23
+  },
+  {
+    "path": "original/2022-2d/binary.h",
+    "sha256": "53e7513f6263d82133d93eb28feb130a73e02891eca020030c24dc33e3d5985b",
+    "bytes": 1897
+  },
+  {
+    "path": "original/2022-2d/check.h",
+    "sha256": "34be02054b226c48f3a62ce1771b6a9beeee43d480d6061b5b27277256bcd0f3",
+    "bytes": 1879
+  },
+  {
+    "path": "original/2022-2d/evolve.cu",
+    "sha256": "116e2d2f4f3c725f2b28764b75a2e7d75d64f95ed30a73fb5565dc0c9dac2843",
+    "bytes": 16091
+  },
+  {
+    "path": "original/2022-2d/get_input.cu",
+    "sha256": "6b82a62168844e750d5f36d12bb78fd3e6d1c62a1d18825bd1705e1a739a62ab",
+    "bytes": 6066
+  },
+  {
+    "path": "original/2022-2d/init_conf.cu",
+    "sha256": "66f3016dee8ddb67c2db74322fc06a40337805f889039a668c9e54cea7b7a9cf",
+    "bytes": 8440
+  },
+  {
+    "path": "original/2022-2d/main.cu",
+    "sha256": "86259e627c71490b5055b0662a7dcc666e72658981a61e4236a41d6da5fc594b",
+    "bytes": 4462
+  },
+  {
+    "path": "original/2022-2d/out_conf.cu",
+    "sha256": "06937aa4bf7355002200fb13b0c22cd4254fa9f79016c133a393e272fd399366",
+    "bytes": 1869
+  },
+  {
+    "path": "original/2023-3d/EvoKernels.h",
+    "sha256": "c05f343e96a2d6c377bfefd45b3728bd5f5077107dd602d04823b07ca8396b14",
+    "bytes": 17612
+  },
+  {
+    "path": "original/2023-3d/InputParams",
+    "sha256": "de0b48f14910dbc1be68028c3ab9d251502ee31bb21a3eff9e566424b6fbad0a",
+    "bytes": 436
+  },
+  {
+    "path": "original/2023-3d/Makefile",
+    "sha256": "146b2e15cb944ccd7e8f213586eca9b3115a19109c5ab8ebf10313fdd0273af1",
+    "bytes": 482
+  },
+  {
+    "path": "original/2023-3d/bin1ary",
+    "sha256": "1c62cd960eed15879e5e30a27c2adf928674b4583fef502246151f000e8165c0",
+    "bytes": 23
+  },
+  {
+    "path": "original/2023-3d/bin_asc_3d.c",
+    "sha256": "a01a08da9c025624f6f28c2f4703a708cb981e06e299e96ab26acf10ef5ce53e",
+    "bytes": 2847
+  },
+  {
+    "path": "original/2023-3d/binary.h",
+    "sha256": "237f79265d39736f1422f5590217c41aa07d8104488051484c01af15a923dcc5",
+    "bytes": 1931
+  },
+  {
+    "path": "original/2023-3d/check.h",
+    "sha256": "34be02054b226c48f3a62ce1771b6a9beeee43d480d6061b5b27277256bcd0f3",
+    "bytes": 1879
+  },
+  {
+    "path": "original/2023-3d/evolve.cu",
+    "sha256": "c5e2221b87be12a83b86745036ef62f69944503a5d2946539b1586a0407fb1f0",
+    "bytes": 6791
+  },
+  {
+    "path": "original/2023-3d/get_input.cu",
+    "sha256": "0ee42f7cc1b2a7f0db026134b0a7e99fea931760546f942d90e0195549676e51",
+    "bytes": 4748
+  },
+  {
+    "path": "original/2023-3d/init_conf.cu",
+    "sha256": "07a2f4ccc3c7c8c3ef2ea5b6389152bd735964f9b0da9e8e71f6d855401914d0",
+    "bytes": 6286
+  },
+  {
+    "path": "original/2023-3d/main.cu",
+    "sha256": "d4dec0443058b025b4e753cd4a07b820cd781a77417709b0f5cfa6deee8385b9",
+    "bytes": 5289
+  },
+  {
+    "path": "original/2023-3d/out_conf.cu",
+    "sha256": "63ee8421d84117c798dc54e448d49662a0a0f11d8a603e48f566ef79d3c7677e",
+    "bytes": 1344
+  }
+]
