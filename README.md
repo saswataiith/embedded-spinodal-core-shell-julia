@@ -1,6 +1,6 @@
 # Embedded spinodal decomposition: core-shell and Janus studies
 
-These codes implement the embedded-particle model used in my research on phase separation and core-shell/Janus morphologies. The recovered CUDA versions were sent by Pankaj in our research correspondence. Their provenance is retained in `original/`; the Julia implementation follows the 2022 equations. It uses the CPU on macOS, Linux or Windows and does not require a GPU. GPU acceleration is not yet implemented.
+These codes implement the embedded-particle model used in my research on phase separation and core-shell/Janus morphologies. The codes and the embedded-model idea are mine. I recovered the CUDA copies from my email correspondence with Pankaj; their location in that correspondence does not identify their author. I retain those copies in `original/`. The Julia implementation follows the 2022 equations. It uses the CPU on macOS, Linux or Windows and does not require a GPU. GPU acceleration is not yet implemented.
 
 This readable CPU implementation follows the fixed-particle model in the recovered 13 July 2022 CUDA source. It is a new implementation of that source's equations, not a port of the different 2016 two-composition model or the evolving-particle 2023 implementation. Recovered source files in `original/` are unchanged. Historical executables and output logs are not included.
 
@@ -66,4 +66,14 @@ Next: longer runs, equal physical particle and interface sizes across grid refin
 - `check-results.txt`: results from the completed checks.
 - `original/2022-2d` and `original/2023-3d`: recovered CUDA sources and input files. These are references; the original 3D source still contains the errors described above.
 
-The research model is from my work; recovered implementations and collaborator contributions retain their provenance. No new open-source licence is applied without a separate decision.
+The code and model attribution here is to my work. Published papers retain their original author lists. No new open-source licence is applied without a separate decision.
+
+
+## Earlier related work
+
+I used confined-system and embedded-domain approaches in my earlier research. Related publications include:
+
+- *Phase separating bulk metallic glass: a hierarchical composite*, Physical Review Letters **96**, 245503 (2006), [doi:10.1103/PhysRevLett.96.245503](https://doi.org/10.1103/PhysRevLett.96.245503). This paper concerns core-shell and hierarchical phase-separating structures.
+- *Anisotropic Li intercalation in a LiₓFePO₄ nano-particle: a spectral smoothed boundary phase-field model*, Physical Chemistry Chemical Physics **18**, 9537–9543 (2016), [doi:10.1039/C6CP00267F](https://doi.org/10.1039/C6CP00267F). This paper uses a spectral smoothed-boundary model for a particle in its surrounding medium.
+
+These references describe earlier related research. The present repository is not claimed to reproduce either paper with its supplied short example.
