@@ -1,0 +1,33 @@
+dev 0
+nx 256 
+ny 256
+dx 1.0
+dy 1.0
+dt 0.01
+total_steps 40000000
+print_steps 200000
+total_steps_1 180000
+print_steps_1 200000
+total_steps_2 18000
+print_steps_2 2000
+R 70.0 Ro 100.0 pre_factor 2.0
+ch_ht 158.0 ch_st 100.0
+Ellmajor 264.0 Ellminor 220.0
+A 2.0 B 4.0 chi 0.5 P 5.0
+c_alpha 0.5 c_beta1 0.0 c_beta2 1.0
+c_0 0.5
+kappa_c 2.0
+kappa_phi 0.0 
+mobility 1.0 mob_tol 0.0
+relax_coeff 0.0
+noise 0.01
+noise_steps 0
+NatEveryStep 50000000
+SEED 5749
+Q 0.5
+Shapeflag 0
+phicutoff 0.5 
+initflag 0
+initcount 0
+Tolerance 1.0e-10
+threadsx 1 threadsy 256
