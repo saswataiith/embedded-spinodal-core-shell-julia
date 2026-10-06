@@ -1,0 +1,19 @@
+nx 1024 
+ny 1024
+dx 1.0
+dy 1.0
+dt 0.1
+num_steps 1
+print_steps 50000
+R 400.0 
+A 2.0 B 0.1 chi 0.7 P 5.0
+c_alpha 0.5 c_beta1 0.0 c_beta2 1.0
+kappa_c 1.0
+kappa_phi 4.0 
+mobility 1.0 
+relax_coeff 0.0001
+no_of_threads 16
+noise 0.001
+initflag 0
+initcount 0
+fftw_flag 1

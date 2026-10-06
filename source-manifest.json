@@ -108,5 +108,55 @@
     "path": "original/2023-3d/out_conf.cu",
     "sha256": "63ee8421d84117c798dc54e448d49662a0a0f11d8a603e48f566ef79d3c7677e",
     "bytes": 1344
+  },
+  {
+    "path": "original/cpu-2019/InputParams",
+    "sha256": "2c3356ff2781988f3cbd9189c9f86b44f0517a99ceb2fbc44518412a675d7711",
+    "bytes": 263
+  },
+  {
+    "path": "original/cpu-2019/Makefile",
+    "sha256": "fd5034d9afc261989a3debba5b013b89dbf562814f717c03e0fd7e3a4713df14",
+    "bytes": 455
+  },
+  {
+    "path": "original/cpu-2019/bin1ary",
+    "sha256": "1c62cd960eed15879e5e30a27c2adf928674b4583fef502246151f000e8165c0",
+    "bytes": 23
+  },
+  {
+    "path": "original/cpu-2019/binary.h",
+    "sha256": "0f88ae0a6ef58fe17d43b2e712531cd06d2d97ab266e45514f294d1bb7353788",
+    "bytes": 1413
+  },
+  {
+    "path": "original/cpu-2019/evolve.c",
+    "sha256": "4142d82b38e4f8a4e248b0e77ded59249ffb890f1069315e2683cf6ff7d7a0d6",
+    "bytes": 7385
+  },
+  {
+    "path": "original/cpu-2019/get_input.c",
+    "sha256": "fdc985ba97c9e2b8e6fc48f9d2e6f2afee275860fab245cc7a896e6cfc065bf0",
+    "bytes": 3567
+  },
+  {
+    "path": "original/cpu-2019/init_conf.c",
+    "sha256": "e518f0b3f3381a9b8ef38d1fe6bced6ac0ee0661164840c048beefba6e25b619",
+    "bytes": 2991
+  },
+  {
+    "path": "original/cpu-2019/mains.c",
+    "sha256": "c4013fbccd62a63c2e6bed3aa2468dfe10f0469762a64cd3c4e2bf7025700207",
+    "bytes": 2106
+  },
+  {
+    "path": "original/cpu-2019/out_conf.c",
+    "sha256": "97404a22221c958134796a861f46c78c0f070c1827df52c6576324863b8d2867",
+    "bytes": 575
+  },
+  {
+    "path": "original/cpu-2019/profile.in",
+    "sha256": "a37dd27e288ced427a948043050f02208a130a2eca682f2ffb168c90143c62e2",
+    "bytes": 35476480
   }
 ]
