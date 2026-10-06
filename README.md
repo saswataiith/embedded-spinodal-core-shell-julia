@@ -77,3 +77,7 @@ I used confined-system and embedded-domain approaches in my earlier research. Re
 - *Anisotropic Li intercalation in a LiₓFePO₄ nano-particle: a spectral smoothed boundary phase-field model*, Physical Chemistry Chemical Physics **18**, 9537–9543 (2016), [doi:10.1039/C6CP00267F](https://doi.org/10.1039/C6CP00267F). This paper uses a spectral smoothed-boundary model for a particle in its surrounding medium.
 
 These references describe earlier related research. The present repository is not claimed to reproduce either paper with its supplied short example.
+
+## Development of my auxiliary-variable models
+
+[Read the model history](MODEL-HISTORY.md): cA in my PRL ternary model, phi for boundary conditions in my PCCP model, and the 1−h(phi)/h(phi) free-energy interpolation used here and in Sandeep’s thesis (Chapter 3, Eq. 3.77; Chapter 6, Section 6.1).
