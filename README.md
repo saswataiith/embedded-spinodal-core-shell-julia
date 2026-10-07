@@ -50,3 +50,7 @@ The default example uses $256^2$ points, spacing 1, timestep 0.01 and 1000 steps
 Julia 1.12.6 and FFTW checks covered the free-energy derivative, discrete dissipation identity, mass conservation and timestep refinement. In the $256^2$ run, mean-composition drift was $6.66\times10^{-16}$ and energy decreased from 4406.51 to 3592.02. This short run gives a transient field. Long-time morphology and spatial convergence remain to be tested. See [check results](check-results.txt) and [numerical details](docs/NUMERICAL-REVIEW.md).
 
 Unchanged historical sources are in `original/`: `cpu-2019` uses constant mobility and evolves the particle field; `2022-2d` is the fixed-particle CUDA model implemented here; `2023-3d` evolves both fields. These historical programs have not been run in these checks. Checksums are in `source-manifest.json`.
+
+## Using my code
+
+My original source is available under MIT. See [licence scope and dependency terms](LICENSING.md) and the [licence](LICENSE).
